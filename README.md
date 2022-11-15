@@ -8,7 +8,7 @@ Para inicializar utilizar el comando:
 docker-compose up -d --build
 ```
 
-Levantar servivios:
+Levantar servicios:
 
 ```
 docker-compose up
