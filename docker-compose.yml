@@ -49,18 +49,18 @@ services:
     networks:
       - wordpress
 
-  phpmyadmin:
-    depends_on:
-      - nginx
-    image: phpmyadmin/phpmyadmin
-    restart: always
-    ports:
-      - '8080:80'
-    environment:
-      PMA_HOST: mysql
-      MYSQL_ROOT_PASSWORD: secret
-    networks:
-      - wordpress
+  # phpmyadmin:
+  #   depends_on:
+  #     - nginx
+  #   image: phpmyadmin/phpmyadmin
+  #   restart: always
+  #   ports:
+  #     - '8080:80'
+  #   environment:
+  #     PMA_HOST: mysql
+  #     MYSQL_ROOT_PASSWORD: secret
+  #   networks:
+  #     - wordpress
 
   # wp:
   #   build:

@@ -38,7 +38,7 @@ mkcert -install
 En la carpeta nginx dentro de cert ejecutar
 
 ```
-mkcert wordpress.test localhost 127.0.0.1 ::1
+mkcert wordpress.test
 ```
 
 ## Plugins
