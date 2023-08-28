@@ -44,7 +44,8 @@ Created a new local CA 💥
 The local CA is now installed in the system trust store! ⚡️
 The local CA is now installed in the Firefox trust store (requires browser restart)! 🦊
 
-En la carpeta nginx dentro de cert ejecutar es importante general el alis del localhost a wordpress.test en el archivo HOST de windows
+En la carpeta nginx dentro de cert ejecutar es importante general el alis del localhost a wordpress.test en el archivo HOST de windows ubicado en la carpeta C:\Windows\System32\drivers\etc
+Ejemplo: 127.0.0.1       wordpress.test
 
 ```
 mkcert wordpress.test
