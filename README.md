@@ -65,6 +65,24 @@ Created a new certificate valid for the following names 📜
 
 The certificate is at "./example.com+5.pem" and the key at "./example.com+5-key.pem" ✅
 
+## Configuración de wordpress
+
+Una vez ingresado a localhost
+
+```php
+/** The name of the database for WordPress */
+define( 'DB_NAME', 'wp' );
+
+/** Database username */
+define( 'DB_USER', 'wp' );
+
+/** Database password */
+define( 'DB_PASSWORD', 'secret' );
+
+/** Database hostname */
+define( 'DB_HOST', 'mysql' );
+```
+
 ## Plugins
 
 Permite instalar y actualizar plugin sin FTP. agregar a wp-config.php
